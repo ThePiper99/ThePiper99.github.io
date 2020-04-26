@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg2.jpg") top right;
+  background: url("../img/hero-bg2.jpg") top right;   /* fixed image width */
   background-size: cover;
   position: relative;
 }
@@ -328,8 +328,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 13px;
-  font-weight: 500;
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -550,7 +551,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #ffb727;
+  background-color: #181cdb;
 }
 
 /*--------------------------------------------------------------
@@ -576,7 +577,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  color: #316be9;
   margin-bottom: 10px;
 }
 
